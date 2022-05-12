@@ -1,0 +1,30 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+}
+th,td {
+    padding: 5px;
+    height: 100px;
+}
+
+h2{
+    text-align: center;
+}
+img {
+    height: 100%;
+    object-fit: cover;    
+}
+th img{
+    border-radius: 10px;
+    float: left;
+}
+td img{
+    filter: blur(2px);
+}
+.img_camt{
+    border-radius: 0px;
+    float: right;
+}
